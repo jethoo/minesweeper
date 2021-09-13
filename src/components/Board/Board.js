@@ -68,7 +68,7 @@ const Board = () => {
     <div className={classes.firstRoot}>
       <Typography className={classes.gameName} variant='h6'>Minesweeper</Typography>
       <div className={classes.secondRoot}>
-        <TopBar playAgain={playAgain}/>
+        <TopBar />
         {gameOver && open && <GameOverModal playAgain={playAgain} />}
         {grid.map((firstIndexItem, outerIndex) => {
           return (
