@@ -50,7 +50,6 @@ const Cell = ({
     return misc.mute
   })
 
-
   //function for revealing each cell value when clicked
   const showCellValue = (x, y) => {
     const clickAudio = new Audio(zeroTrack)

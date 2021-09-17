@@ -54,6 +54,7 @@ const Board = () => {
     dispatch(handleFlags(bombsTotal))
     dispatch(handleTopScores())
     dispatch(handleTimer(0))
+    dispatch(gameOverModal(false))
   }
 
   const playAgain = () => {
